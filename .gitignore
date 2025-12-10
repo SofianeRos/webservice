@@ -1,0 +1,10 @@
+/.env
+/.env.local
+/.env.*.local
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+*.log
+.DS_Store
+/www/

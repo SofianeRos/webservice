@@ -1,0 +1,11 @@
+vendor/
+.env
+.env.local
+.git/
+.gitignore
+.idea/
+.vscode/
+*.log
+.DS_Store
+node_modules/
+www/
