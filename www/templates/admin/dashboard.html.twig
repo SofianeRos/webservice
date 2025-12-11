@@ -1,9 +1,49 @@
 {% extends "@EasyAdmin/page/content.html.twig" %}
 
 {% block content_title %}
-    <h1>Bienvenue dans l'espace d'administration</h1>
+	<h1>Bienvenue dans l'espace d'administration</h1>
 {% endblock %}
 
 {% block main %}
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card mb-4">
+				<div class="card-header">
+					<i class="fa fa-users"></i>
+					voir les utilisateurs
+				</div>
+				<div class="card-body">
+					<p>Gestion des utilisateurs de votre application.</p>
+					<a class="btn btn-primary" href="/admin/user">
+						<i class="fa fa-users"></i>
+						voir les utilisateurs
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card mb-4">
+				<div class="card-header">
+					<i class="fa fa-tasks"></i>
+					gestion des taches
+				</div>
+				<div class="card-body">
+					<p>consulter et gerer toutes les taches du systeme.</p>
+					<a class="btn btn-warning" href="/admin/todo">
+						<i class="fa fa-tasks"></i>
+						voir les taches
+					</a>
+				</div>
+			</div>
+		</div>
 
+	</div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="alert alert-info">
+                <i class="fa fa-info-circle"></i> Utilisez le menu de navigation pour acceder aux differentes sections d'administration.
+            </div>
+        </div>
+    </div>
 {% endblock %}
